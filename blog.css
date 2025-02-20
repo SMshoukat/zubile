@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.typo h1 {
+    font-size: 35px !important;
+    font-weight: 700;
+    line-height: 48px;
+}
+.typo p {
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 29.34px;
+}
+.sorted .dropdown{
+    border: 1px solid #ccc;
+}
+.main-card img{
+    width: 100%;
+    /* width: 550px; */
+    height: 350px;
+}
+
+.meta-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+.meta-info i {
+    margin-right: 5px;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.description {
+    font-size: 15px;
+    font-weight:400;
+    color: #333;
+    line-height: 29.34px;
+}
+.read-btn{
+    height: 10px !important;
+    width: 150px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
