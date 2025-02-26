@@ -1,0 +1,68 @@
+.main-nike{
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headers h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.content {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.content p {
+    margin: 0;
+}
+.bordering{
+    border-bottom: 1px solid rgba(176, 176, 176, 1);
+    padding: 5px;
+}
+.popular-img img{
+    width: 125px;
+    height: 125px;
+}
+
+.stores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.store {
+    flex: 1 1 calc(50% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* padding: 20px; */
+    box-sizing: border-box;
+}
+.store img {
+    max-width: 100%;
+    height: auto;
+}
+
+.end-img img{
+    width: 260px;
+    height: auto;
+}
+.end-img {
+   position: relative;
+}
+.upper-text{
+    position: absolute;
+    top: 150px;
+    transform: translate(25%, 25%);
+    color: #fff;
+}
