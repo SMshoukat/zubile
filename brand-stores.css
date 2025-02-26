@@ -2,8 +2,7 @@
     background-color: #e0f7fa;
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 .headers {
     display: flex;
@@ -54,7 +53,7 @@
 }
 
 .end-img img{
-    width: 260px;
+    width: 100%;
     height: auto;
 }
 .end-img {
@@ -62,7 +61,219 @@
 }
 .upper-text{
     position: absolute;
-    top: 150px;
-    transform: translate(25%, 25%);
+    top: 120px;
+    transform: translate(15%, 25%);
     color: #fff;
 }
+/* ******************* */
+
+.image-sec{
+    position: relative;
+}
+.discount{
+    position: absolute;
+    top: 30px;
+    left: 58px;
+}
+.divider{
+    padding: 0 22px;
+}
+
+.deal-card-header .badge {
+    background-color: #497AA5;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.yellow{
+    background-color: rgba(241, 203, 49, 1) !important;
+    color: #000 !important;
+}
+
+.deal-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    /* margin: 0; */
+}
+.deal-card-description {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 0;
+    color: rgba(0, 0, 0, 1);
+}
+.deal-card-footer .expiry {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(87, 87, 87, 1);
+}
+.expire {
+    font-size: 13px;
+    font-weight: 400;
+    color:rgba(163, 163, 163, 1);
+}
+.expire-border{
+    border-bottom: 1px solid rgba(222, 222, 222, 1);
+    width: 322px;
+}
+.used{
+    font-size: 13px;
+    font-weight: 400;
+}
+.ex-btn{
+    background-color: #497AA5;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: 7px 35px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .coupen {
+        flex-direction: column;
+        width: 100%;
+        padding: 12px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-sec {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .discount {
+        position: relative;
+        text-align: center;
+        margin-top: -20px;
+        font-size: 18px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .image-sec-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .deal-card-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .badge {
+        width: fit-content;
+    }
+
+    .expire-btn-sec {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .coupon-button {
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding: 12px;
+    }
+
+    .expire-border {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
