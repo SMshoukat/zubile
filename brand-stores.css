@@ -1,279 +1,262 @@
-.main-nike{
-    background-color: #e0f7fa;
-    border-radius: 10px;
-    padding: 20px;
-    width: 100%;
+.first-p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+  letter-spacing: 0%;
+}
+.first-h {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.headline {
+  margin-top: 75px;
+  background: #497aa5;
+  height: 91px;
+}
+
+.star {
+  font-size: 22px;
+}
+.nike-logo {
+  width: 197px;
+  height: 120px;
+  top: -14px;
+  left: 10px;
+}
+
+.nike-vector {
+  top: -14px;
+}
+
+.prostitute {
+  width: 197px;
+  height: 91px;
+}
+.divider-two {
+  height: 15px;
+  width: 2px;
+  /* background-color: lightgray; */
+  background-color: #ffffff;
+  /* margin: 0 20px; */
+}
+
+.main-nike {
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
 }
 .headers {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .headers h1 {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .content {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 1.6;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.6;
 }
 .content p {
-    margin: 0;
+  margin: 0;
 }
-.bordering{
-    border-bottom: 1px solid rgba(176, 176, 176, 1);
-    padding: 5px;
+.bordering {
+  border-bottom: 1px solid rgba(176, 176, 176, 1);
+  padding: 5px;
 }
-.popular-img img{
-    width: 125px;
-    height: 125px;
+.popular-img img {
+  width: 125px;
+  height: 125px;
 }
 
 .stores {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .store {
-    flex: 1 1 calc(50% - 10px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    /* padding: 20px; */
-    box-sizing: border-box;
+  flex: 1 1 calc(50% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /* padding: 20px; */
+  box-sizing: border-box;
 }
 .store img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.end-img img{
-    width: 100%;
-    height: auto;
+.end-img img {
+  width: 100%;
+  height: auto;
 }
 .end-img {
-   position: relative;
+  position: relative;
 }
-.upper-text{
-    position: absolute;
-    top: 120px;
-    transform: translate(15%, 25%);
-    color: #fff;
+.upper-text {
+  position: absolute;
+  top: 120px;
+  transform: translate(15%, 25%);
+  color: #fff;
 }
 /* ******************* */
 
-.image-sec{
-    position: relative;
+.image-sec {
+  position: relative;
 }
-.discount{
-    position: absolute;
-    top: 30px;
-    left: 58px;
+.discount {
+  position: absolute;
+  top: 30px;
+  left: 58px;
 }
-.divider{
-    padding: 0 22px;
+.first-coupen {
+  background-color: rgba(245, 245, 245, 1);
+}
+.divider {
+  padding: 0 22px;
 }
 
 .deal-card-header .badge {
-    background-color: #497AA5;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 4px;
-    margin-right: 8px;
+  background-color: #497aa5;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 8px;
 }
-.yellow{
-    background-color: rgba(241, 203, 49, 1) !important;
-    color: #000 !important;
+.yellow {
+  background-color: rgba(241, 203, 49, 1) !important;
+  color: #000 !important;
 }
 
 .deal-card-title {
-    font-size: 20px;
-    font-weight: 700;
-    /* margin: 0; */
+  font-size: 20px;
+  font-weight: 700;
+  /* margin: 0; */
 }
 .deal-card-description {
-    font-size: 14px;
-    font-weight: 400;
-    margin: 6px 0;
-    color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 6px 0;
+  color: rgba(0, 0, 0, 1);
 }
 .deal-card-footer .expiry {
-    font-size: 13px;
-    font-weight: 400;
-    color: rgba(87, 87, 87, 1);
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(87, 87, 87, 1);
 }
 .expire {
-    font-size: 13px;
-    font-weight: 400;
-    color:rgba(163, 163, 163, 1);
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(163, 163, 163, 1);
 }
-.expire-border{
-    border-bottom: 1px solid rgba(222, 222, 222, 1);
-    width: 322px;
+.expire-border {
+  border-bottom: 1px solid rgba(222, 222, 222, 1);
+  width: 322px;
 }
-.used{
-    font-size: 13px;
-    font-weight: 400;
+.used {
+  font-size: 13px;
+  font-weight: 400;
 }
-.ex-btn{
-    background-color: #497AA5;
-    color: #fff;
-    border: none;
-    font-weight: 600;
-    padding: 7px 35px;
-    border-radius: 5px;
+.ex-btn {
+  background-color: #497aa5;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  padding: 7px 35px;
+  border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.third-p {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: 0%;
+}
+.load-more {
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 15px 15px;
+  border: none;
+}
+.content-cards h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+}
 
 @media (max-width: 576px) {
-    .coupen {
-        flex-direction: column;
-        width: 100%;
-        padding: 12px;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    }
+  .coupen {
+    flex-direction: column;
+    width: 100%;
+    padding: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
 
-    .image-sec {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
-    }
+  .image-sec {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
-    .discount {
-        position: relative;
-        text-align: center;
-        margin-top: -20px;
-        font-size: 18px;
-    }
+  .discount {
+    position: relative;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 18px;
+  }
 
-    .divider {
-        display: none;
-    }
+  .divider {
+    display: none;
+  }
 
-    .image-sec-content {
-        width: 100%;
-        text-align: center;
-    }
+  .image-sec-content {
+    width: 100%;
+    text-align: center;
+  }
 
-    .deal-card-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .deal-card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .badge {
-        width: fit-content;
-    }
+  .badge {
+    width: fit-content;
+  }
 
-    .expire-btn-sec {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
+  .expire-btn-sec {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-    .coupon-button {
-        width: 100%;
-        text-align: center;
-        display: block;
-        padding: 12px;
-    }
+  .coupon-button {
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 12px;
+  }
 
-    .expire-border {
-        width: 100%;
-    }
+  .expire-border {
+    width: 100%;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

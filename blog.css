@@ -12,7 +12,17 @@
 }
 .sorted .dropdown{
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
+.all-rating{
+    border-radius: 4px;
+    padding: 7px 12px ;
+        border: 0.5px solid #BFBFBF
+    }
+.all-rating-img{
+    width: 24;
+    height: 24;
+ }
 .main-card img{
     width: 100%;
     /* width: 550px; */
